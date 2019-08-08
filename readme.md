@@ -14,3 +14,4 @@ aws-vault exec shibata -- terraform apply eks-1.tfplan
 ```
 
 
+Terraform will take a while to apply so you might want to increase the aws-vault timeout `--no-session`  will create unlimited timeout for apply
